@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@ctx-core/function": "^21.6.0",
 		"@ctx-core/number": "^8.6.0",
-		"@ctx-core/object": "^24.0.0",
+		"@ctx-core/object": "^24.0.1",
 		"solid-js": "^1.6.9"
 	},
 	"devDependencies": {
