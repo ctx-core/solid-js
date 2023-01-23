@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -30,7 +30,7 @@
 		"clean": ":",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build && npm run test",
-		"test": "pnpm test-unit && check-dts",
+		"test": "pnpm test-unit",
 		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},

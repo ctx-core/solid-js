@@ -1,16 +1,13 @@
 import { isNumber_ } from '@ctx-core/number'
 import { promise_timeout } from '@ctx-core/function'
+import { createComputed } from 'solid-js/dist/solid.js'
 export function subscribe_wait(memo, condition_fn, timeout) {
-	const _subscribe_wait = new Promise(resolve => {
-		let unsubscribe, unsubscribe_oninit = false
-		unsubscribe = memo.subscribe($ => {
-			if (condition_fn($)) {
-				if (unsubscribe) unsubscribe()
-				else unsubscribe_oninit = true
-				resolve($)
+	const _subscribe_wait = new Promise(resolve=>{
+		createComputed(()=>{
+			if (condition_fn(memo())) {
+				resolve(memo())
 			}
 		})
-		if (unsubscribe_oninit) unsubscribe()
 	})
 	return isNumber_(timeout) ? promise_timeout(_subscribe_wait, timeout) : _subscribe_wait
 }
