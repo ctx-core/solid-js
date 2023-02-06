@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.2.0
+
+### Minor Changes
+
+- - signal_T: extracted from @ctx-core/ui-solid
+
 ## 1.1.5
 
 ### Patch Changes
