@@ -1,5 +1,12 @@
 # @ctx-core/solid-js
 
+## 1.2.15
+
+### Patch Changes
+
+- @ctx-core/function: ^21.8.0 -> ^21.9.0
+- @ctx-core/object: ^27.0.0 -> ^27.1.0
+
 ## 1.2.14
 
 ### Patch Changes
