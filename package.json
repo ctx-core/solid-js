@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.2.30",
+	"version": "1.2.31",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 		"@ctx-core/function": "^21.12.2",
 		"@ctx-core/number": "^8.6.2",
 		"@ctx-core/object": "^27.3.1",
-		"solid-js": "^1.6.16"
+		"solid-js": "^1.7.0"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^10.0.2",
