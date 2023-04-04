@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.2.38
+
+### Patch Changes
+
+- @ctx-core/number: ^8.6.2 -> ^8.6.3
+
 ## 1.2.37
 
 ### Patch Changes
