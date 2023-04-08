@@ -1,5 +1,13 @@
 # @ctx-core/solid-js
 
+## 1.2.43
+
+### Patch Changes
+
+- typescript: ^5.0.3 -> ^5.0.4
+- eslint: ^8.37.0 -> ^8.38.0
+- solid-js: ^1.7.2 -> ^1.7.3
+
 ## 1.2.42
 
 ### Patch Changes
