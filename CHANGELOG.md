@@ -1,5 +1,16 @@
 # @ctx-core/solid-js
 
+## 1.3.0
+
+### Minor Changes
+
+- - ctx\_\_Context,params\_\_ctx\_\_memo\_,signal\_\_toggle\_: taken from @ctx-core/ui-solid
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/function@21.18.0
+
 ## 1.2.62
 
 ### Patch Changes
