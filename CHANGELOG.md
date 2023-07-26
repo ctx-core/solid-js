@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.4.1
+
+### Patch Changes
+
+- undo v1.4.0 change: - params**ctx**memo
+
 ## 1.3.21
 
 ### Patch Changes
