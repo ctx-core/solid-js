@@ -7,9 +7,12 @@ import { ctx__Context__use } from '../ctx__Context/index.js'
  * @returns {()=>Ctx}
  * @private
  */
-export function params__ctx__memo_(params) {
+export function params__ctx__memo(params) {
 	return createMemo(()=>
 		params.ctx
 		|| ctx__Context__use()
 		|| ctx_())
+}
+export {
+	params__ctx__memo as params__ctx__memo_,
 }
