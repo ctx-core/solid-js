@@ -1,11 +1,5 @@
 # @ctx-core/solid-js
 
-## 1.4.0
-
-### Minor Changes
-
-- - params**ctx**memo: aliased by params**ctx**memo\_
-
 ## 1.3.21
 
 ### Patch Changes
