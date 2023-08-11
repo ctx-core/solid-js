@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.4.6
+
+### Patch Changes
+
+- eslint: ^8.46.0 -> ^8.47.0
+
 ## 1.4.5
 
 ### Patch Changes
