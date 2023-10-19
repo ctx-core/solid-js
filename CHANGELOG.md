@@ -1,5 +1,18 @@
 # @ctx-core/solid-js
 
+## 1.4.17
+
+### Patch Changes
+
+- @sinonjs/fake-timers: ^11.1.0 -> ^11.2.1
+- @types/sinonjs\_\_fake-timers: ^8.1.3 -> ^8.1.4
+- solid-js: ^1.8.1 -> ^1.8.3
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+  - @ctx-core/function@21.20.2
+  - @ctx-core/number@8.6.24
+  - @ctx-core/object@28.2.1
+
 ## 1.4.16
 
 ### Patch Changes
