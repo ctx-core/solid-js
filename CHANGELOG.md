@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.4.18
+
+### Patch Changes
+
+- @sinonjs/fake-timers: ^11.2.1 -> ^11.2.2
+
 ## 1.4.17
 
 ### Patch Changes
