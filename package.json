@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.4.26",
+	"version": "1.5.0",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -18,10 +18,18 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./ctx__Context",
+		"./params__ctx__memo_",
+		"./signal__toggle_",
+		"./subscribe",
+		"./subscribe_wait"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"bin": {},
@@ -35,9 +43,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/number": "^8.6.24",
-		"@ctx-core/object": "^30.0.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/number": "^8.7.0",
+		"@ctx-core/object": "^30.1.0",
 		"solid-js": "^1.8.5"
 	},
 	"devDependencies": {

@@ -1,8 +1,8 @@
 import { test } from 'uvu'
-import { subscribe } from '../index'
 import { equal } from 'uvu/assert'
+import { subscribe } from '../index.js'
 test('subscribe', async ()=>{
-	const { createRoot, createSignal } = await import('solid-js/dist/solid.js')
+	const { createRoot, createSignal } = await import('solid-js')
 	createRoot((dispose:()=>void)=>{
 		try {
 			let subject = -1
