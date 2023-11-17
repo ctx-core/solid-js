@@ -1,5 +1,16 @@
 # @ctx-core/solid-js
 
+## 1.5.9
+
+### Patch Changes
+
+- tsx: ^4.1.2 -> ^4.1.3
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/function@21.22.4
+  - @ctx-core/number@8.7.9
+  - @ctx-core/object@30.4.1
+
 ## 1.5.8
 
 ### Patch Changes
