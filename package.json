@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.5.11",
+	"version": "1.5.12",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -45,9 +45,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/function": "^21.22.6",
-		"@ctx-core/number": "^8.7.11",
-		"@ctx-core/object": "^30.4.3",
+		"@ctx-core/function": "^21.22.7",
+		"@ctx-core/number": "^8.7.12",
+		"@ctx-core/object": "^30.4.4",
 		"solid-js": "^1.8.5"
 	},
 	"devDependencies": {
