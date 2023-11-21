@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.5.21
+
+### Patch Changes
+
+- typescript: ^5.3.0-dev.20230829 -> ^5.3.2
+
 ## 1.5.20
 
 ### Patch Changes
