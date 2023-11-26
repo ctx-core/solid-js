@@ -4,9 +4,6 @@ import { createComputed } from 'solid-js'
 export function subscribe_wait(memo, condition_fn, timeout) {
 	const _subscribe_wait = new Promise(resolve=>{
 		createComputed(()=>{
-			console.debug('subscribe_wait|debug|1', {
-				_: memo()
-			})
 			if (condition_fn(memo())) {
 				resolve(memo())
 			}

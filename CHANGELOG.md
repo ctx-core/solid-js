@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.5.30
+
+### Patch Changes
+
+- subscribe_wait: - console.debug
+
 ## 1.5.29
 
 ### Patch Changes
