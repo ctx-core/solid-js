@@ -34,7 +34,6 @@
 		".": "./index.js",
 		"./package.json": "./package.json"
 	},
-	"bin": {},
 	"scripts": {
 		"build": ":",
 		"clean": ":",
