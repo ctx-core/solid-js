@@ -1,5 +1,11 @@
 # @ctx-core/solid-js
 
+## 1.5.60
+
+### Patch Changes
+
+- tsx: ^4.6.2 -> ^4.7.0
+
 ## 1.5.59
 
 ### Patch Changes
