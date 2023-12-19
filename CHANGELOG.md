@@ -1,5 +1,13 @@
 # @ctx-core/solid-js
 
+## 1.5.59
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 1.5.58
 
 ### Patch Changes

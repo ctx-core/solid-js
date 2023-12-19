@@ -1,7 +1,8 @@
-import { ctx__new } from '@ctx-core/object'
+/// <reference types="ctx-core" />
+import { ctx__new } from 'ctx-core/be'
 import { createMemo } from 'solid-js'
 import { ctx__Context__use } from '../ctx__Context/index.js'
-/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {Ctx} */
 /**
  * @param {{ ctx?:Ctx }}params
  * @returns {()=>Ctx}

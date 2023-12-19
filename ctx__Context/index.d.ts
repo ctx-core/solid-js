@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { Context } from 'solid-js'
 export declare const ctx__Context:Context<Ctx>
 export {

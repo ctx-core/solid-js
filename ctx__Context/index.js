@@ -1,5 +1,5 @@
+/// <reference types="ctx-core" />
 import { createContext, useContext } from 'solid-js'
-/** @typedef {import('@ctx-core/object').Ctx} */
 /** @typedef {import('solid-js').Context} */
 /** @type {Context<Ctx>} */
 export const ctx__Context = createContext()
