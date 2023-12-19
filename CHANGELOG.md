@@ -1,5 +1,14 @@
 # @ctx-core/solid-js
 
+## 1.5.56
+
+### Patch Changes
+
+- @ctx-core/number: ^8.7.52 -> ^8.7.53
+- @ctx-core/function: ^21.24.6 -> ^21.24.7
+- eslint: ^8.55.0 -> ^8.56.0
+- @ctx-core/object: ^31.1.33 -> ^31.1.34
+
 ## 1.5.55
 
 ### Patch Changes
