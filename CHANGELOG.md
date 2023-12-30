@@ -1,5 +1,13 @@
 # @ctx-core/solid-js
 
+## 1.5.70
+
+### Patch Changes
+
+- ctx-core: ^5.5.0 -> ^5.6.0
+- Updated dependencies
+  - ctx-core@5.6.1
+
 ## 1.5.69
 
 ### Patch Changes
