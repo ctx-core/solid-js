@@ -2,10 +2,9 @@
 import { ctx__new } from 'ctx-core/be'
 import { createMemo } from 'solid-js'
 import { ctx__Context__use } from '../ctx__Context/index.js'
-/** @typedef {Ctx} */
 /**
- * @param {{ ctx?:Ctx }}params
- * @returns {()=>Ctx}
+ * @param {{ ctx?:ctx_T }}params
+ * @returns {()=>ctx_T}
  * @private
  */
 export function params__ctx__memo_(params) {
