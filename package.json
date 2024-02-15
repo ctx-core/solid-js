@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.5.146",
+	"version": "1.5.147",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -44,8 +44,8 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.3.0",
-		"solid-js": "^1.8.14"
+		"ctx-core": "^6.4.1",
+		"solid-js": "^1.8.15"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^11.2.2",
