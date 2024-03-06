@@ -1,5 +1,13 @@
 # @ctx-core/solid-js
 
+## 1.5.157
+
+### Patch Changes
+
+- typescript: ^5.3.3 -> ^5.4.2
+- Updated dependencies
+  - ctx-core@6.5.4
+
 ## 1.5.156
 
 ### Patch Changes
