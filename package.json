@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.5.164",
+	"version": "1.5.165",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -16,7 +16,11 @@
 		"url": "https://github.com/ctx-core/nanostores.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-solid-js@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -44,7 +48,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0",
+		"ctx-core": "^6.6.1",
 		"solid-js": "^1.8.15"
 	},
 	"devDependencies": {
