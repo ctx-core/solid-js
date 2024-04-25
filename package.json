@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.5.186",
+	"version": "1.5.187",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -49,14 +49,14 @@
 	},
 	"dependencies": {
 		"ctx-core": "^7.2.2",
-		"solid-js": "^1.8.16"
+		"solid-js": "^1.8.17"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^11.2.2",
 		"@types/sinonjs__fake-timers": "^8.1.5",
 		"c8": "^9.1.0",
 		"check-dts": "^0.7.2",
-		"eslint": "^9.1.0",
+		"eslint": "^9.1.1",
 		"tsx": "^4.7.2",
 		"typescript": "^5.4.5",
 		"uvu": "^0.5.6"
