@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-js",
-	"version": "1.5.215",
+	"version": "1.5.216",
 	"description": "ctx-core solid-js model helpers",
 	"keywords": [
 		"ctx-core",
@@ -48,16 +48,16 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.30",
-		"solid-js": "^1.8.20"
+		"ctx-core": "^7.2.31",
+		"solid-js": "^1.8.22"
 	},
 	"devDependencies": {
-		"@sinonjs/fake-timers": "^11.2.2",
+		"@sinonjs/fake-timers": "^13.0.1",
 		"@types/sinonjs__fake-timers": "^8.1.5",
 		"c8": "^10.1.2",
-		"check-dts": "^0.8.0",
-		"eslint": "^9.9.0",
-		"tsx": "^4.17.0",
+		"check-dts": "^0.8.2",
+		"eslint": "^9.9.1",
+		"tsx": "^4.19.0",
 		"typescript": "^5.5.4",
 		"uvu": "^0.5.6"
 	},
